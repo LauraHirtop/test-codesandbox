@@ -31,7 +31,7 @@ export default function App() {
 
   return (
     <Container style={stil.container}>
-      <Navbar bg="primary" variant="dark" expand="lg">
+      <Navbar bg="primary" variant="dark" expand="lg" className="px-3">
         <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
